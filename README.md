@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   
 
 
@@ -911,3 +912,9 @@ I think you should use an
   </body>
 </html>
 
+=======
+queens
+======
+
+N Queens solution based on ideas from MIT 6.001
+>>>>>>> 0b75516d80317398d4c3fe434eb8d1d901c41cae
