@@ -74,5 +74,9 @@
   [Q] ; size of board = number of queens
   (loop [i 0
          solution (init-solution Q)]
-    (cond (= i (dec Q))  solution
+    (cond (= i (dec Q)) (doseq [s solution]
+                          (println s))
           :else (recur (inc i) (solve solution i Q)))))
+
+(defn -main []
+  (queens 8))
